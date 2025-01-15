@@ -1,24 +1,24 @@
-1	<!DOCTYPE html>
-2	<html>
-3	<head>
-4	<meta http-equiv=’X-UA-Compatible’ content=’chrome=1’><meta>
-5	<meta http-equiv=’Conten-Type’ content=’text/html;charset=utf-8’></meta>
-6	<title>Titulo pestaña</title>
-7	<script type=’text/javascript’ src=’https://www.x3dom.org/download/x3dom.js’> <script>
-8	<link rel=’stylesheet’ type=’text/css’ href=’https://www.x3dom.org/download/x3dom.css’ />
-9	</head>
-10	<body>
-11	<h1>Cabecera página</h1>
-12	<p>
-13          Texto previo
-14	</p>
-15	<x3d width=’800px’ height=’800px’>
-16	<scene>
-17	<inline url=”https://raw.githubusercontent.com/Charol-24/Modelo/refs/heads/main/VAReina1.x3d”> </inline>
-18	</scene>
-19	</x3d>
-20	<p>
-21          Texto final
-22	</p>
-23	  </body>
-24	</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv=’X-UA-Compatible’ content=’chrome=1’><meta>
+<meta http-equiv=’Conten-Type’ content=’text/html;charset=utf-8’></meta>
+<title>Titulo pestaña</title>
+<script type=’text/javascript’ src=’https://www.x3dom.org/download/x3dom.js’> <script>
+<link rel=’stylesheet’ type=’text/css’ href=’https://www.x3dom.org/download/x3dom.css’ />
+</head>
+<body>
+<h1>Cabecera página</h1>
+<p>
+        Texto previo
+</p>
+<x3d width=’800px’ height=’800px’>
+<scene>
+<inline url=”https://raw.githubusercontent.com/Charol-24/Modelo/refs/heads/main/Index.html.txt”> </inline>
+</scene>
+</x3d>
+<p>
+        Texto final
+</p>
+  </body>
+</html>
