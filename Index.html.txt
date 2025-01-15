@@ -1,36 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"></meta>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
   <title>Título pestaña</title>
   <script type="text/javascript" src="https://www.x3dom.org/download/x3dom.js"></script>
   <link rel="stylesheet" type="text/css" href="https://www.x3dom.org/download/x3dom.css" />
 </head>
 <body>
   <h1>Cabecera página</h1>
-  <p>Texto previo</p>
-
+  <p>
+      Texto previo
+  </p>
   <x3d width="800" height="800">
     <scene>
       <inline url="https://raw.githubusercontent.com/Charol-24/Modelo/refs/heads/main/VAReina1.x3d"></inline>
     </scene>
   </x3d>
-  
-  <p>Texto final</p>
-  
-  <h2>Contenido del archivo .txt:</h2>
-  <pre id="txtContent">Cargando...</pre>
-
-  <script>
-    fetch('https://raw.githubusercontent.com/usuario/repo/main/ruta/del/archivo.txt')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('txtContent').textContent = data;
-      })
-      .catch(error => {
-        document.getElementById('txtContent').textContent = 'Error al cargar el archivo: ' + error;
-      });
-  </script>
-</body>
-</html>
+  <p>
+      Texto final
+  </p>
+    </body>
+  </html>
